@@ -12,6 +12,7 @@ email@example.co.jp
 firstname-lastname@gmail.com
 invalid adresses
 plainaddress
+makapaka:)
 #@%^%#$@#$@#.com
 @gmail.com
 Joe Smith <email@example.com>
