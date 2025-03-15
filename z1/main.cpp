@@ -1,6 +1,6 @@
 #include <iostream>
 #include <regex>
-
+#include <sstream>
 int main() {
     // Z1.1: Podstawy regex
     bool wyswietlajz1 = true;
