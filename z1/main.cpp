@@ -218,13 +218,15 @@ int main() {
             std::cout << "Slowa konczace sie na ing: \n";
             while (getline(ss, word)) {
                 std::smatch m;
-                std::regex_search(word, m, r);
+               while( std::regex_search(word, m, r)){
                 if (!m.empty()) {
                     std::cout << m.str() << " spelnia wyrazenie \n";
                     for (int i = 1; i < m.size(); i++) {
                         std::cout << "Zawartosc grupy przchwytywania " << i << " : " << m[i] << '\n';
                     }
+                    word=m.suffix();
                 }
+               }
             }
         }
     }
