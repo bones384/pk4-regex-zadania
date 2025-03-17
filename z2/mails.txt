@@ -25,7 +25,6 @@ email..email@example.com
 email@example.com (Joe Smith)
 email@example
 email@-example.com
-email@example.web
 email@example..com
 random real adresses
 wsnyder@me.com
